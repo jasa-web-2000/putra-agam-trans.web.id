@@ -1,15 +1,17 @@
 <?php
 
-$domain = 'http://localhost/travel/berliantrans.web.id/';
-$brand = 'Berlian Trans';
-$logo = 'src/img/logo.jpg';
-$logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " - Travel Magelang Temanggung Jabodetabek";
-$desc = $brand . " menawarkan jasa Magelang Temanggung Jabodetabek dengan harga murah tahun "  . date('Y');
-$telp = '0823-7680-0773';
+// $domain = 'http://localhost/travel/kingtourtravel.web.id/';
+$domain = 'https://kingtourtravel.web.id/';
+$brand = 'King Tour & Travel';
+$logo = 'src/img/King-Tour-Travel.png';
+$logoPanjang = 'src/img/King-Tour-Travel.png';
+$title = $brand . " - Travel Jabodetabek Sukabumi Cianjur";
+$desc = $brand . " menawarkan jasa Jabodetabek Sukabumi Cianjur dengan harga murah tahun "  . date('Y');
+$telp = '0857-1110-5850';
 // $telp2 = '0858-2179-2395';
-$alamat = 'R397+HX3 Candiroto, Kabupaten Temanggung, Jawa Tengah';
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3958.5221343199682!2d110.06235197499898!3d-7.181101592823893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTAnNTIuMCJTIDExMMKwMDMnNTMuNyJF!5e0!3m2!1sid!2sid!4v1744197608844!5m2!1sid!2sid';
+$alamat = 'Bantarkalong, Kabupaten Sukabumi, Jawa Barat';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3959.8958196140934!2d106.7024259749974!3d-7.0215308929801195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDEnMTcuNSJTIDEwNsKwNDInMTguMCJF!5e0!3m2!1sid!2sid!4v1751353933969!5m2!1sid!2sid';
+
 
 function res_telp($telp)
 {
@@ -48,55 +50,86 @@ $menu = [
 
 
 $rute = [
-  "Travel Magelang Karawang",
-  "Travel Magelang Jakarta",
-  "Travel Magelang Bogor",
-  "Travel Magelang Depok",
-  "Travel Magelang Tangerang",
-  "Travel Magelang Bekasi",
-  "Travel Magelang Bandara",
+  "Travel Sukabumi Jakarta",
+  "Travel Sukabumi Bandara",
+  "Travel Sukabumi Bogor",
+  "Travel Sukabumi Depok",
+  "Travel Sukabumi Tangerang",
+  "Travel Sukabumi Bekasi",
+  "Travel Sukabumi Karawang",
+  "Travel Sukabumi Cikampek",
+  "Travel Sukabumi Purwakarta",
 
-  "Travel Temanggung Karawang",
-  "Travel Temanggung Jakarta",
-  "Travel Temanggung Bogor",
-  "Travel Temanggung Depok",
-  "Travel Temanggung Tangerang",
-  "Travel Temanggung Bekasi",
-  "Travel Temanggung Bandara",
+  "Travel Cianjur Jakarta",
+  "Travel Cianjur Bandara",
+  "Travel Cianjur Bogor",
+  "Travel Cianjur Depok",
+  "Travel Cianjur Tangerang",
+  "Travel Cianjur Bekasi",
+  "Travel Cianjur Karawang",
+  "Travel Cianjur Cikampek",
+  "Travel Cianjur Purwakarta",
 
-  "Travel Karawang Magelang",
-  "Travel Jakarta Magelang",
-  "Travel Bogor Magelang",
-  "Travel Depok Magelang",
-  "Travel Tangerang Magelang",
-  "Travel Bekasi Magelang",
-  "Travel Bandara Magelang",
+  "Travel Pelabuhan Ratu Jakarta",
+  "Travel Pelabuhan Ratu Bandara",
+  "Travel Pelabuhan Ratu Bogor",
+  "Travel Pelabuhan Ratu Depok",
+  "Travel Pelabuhan Ratu Tangerang",
+  "Travel Pelabuhan Ratu Bekasi",
+  "Travel Pelabuhan Ratu Karawang",
+  "Travel Pelabuhan Ratu Cikampek",
+  "Travel Pelabuhan Ratu Purwakarta",
 
-  "Travel Karawang Temanggung",
-  "Travel Jakarta Temanggung",
-  "Travel Bogor Temanggung",
-  "Travel Depok Temanggung",
-  "Travel Tangerang Temanggung",
-  "Travel Bekasi Temanggung",
-  "Travel Bandara Temanggung",
+  // 
+
+  "Travel Jakarta Sukabumi",
+  "Travel Bandara Sukabumi",
+  "Travel Bogor Sukabumi",
+  "Travel Depok Sukabumi",
+  "Travel Tangerang Sukabumi",
+  "Travel Bekasi Sukabumi",
+  "Travel Karawang Sukabumi",
+  "Travel Cikampek Sukabumi",
+  "Travel Purwakarta Sukabumi",
+
+  "Travel Jakarta Cianjur ",
+  "Travel Bandara Cianjur ",
+  "Travel Bogor Cianjur ",
+  "Travel Depok Cianjur ",
+  "Travel Tangerang Cianjur ",
+  "Travel Bekasi Cianjur ",
+  "Travel Karawang Cianjur ",
+  "Travel Cikampek Cianjur ",
+  "Travel Purwakarta Cianjur ",
+
+  "Travel Jakarta Pelabuhan Ratu",
+  "Travel Bandara Pelabuhan Ratu",
+  "Travel Bogor Pelabuhan Ratu",
+  "Travel Depok Pelabuhan Ratu",
+  "Travel Tangerang Pelabuhan Ratu",
+  "Travel Bekasi Pelabuhan Ratu",
+  "Travel Karawang Pelabuhan Ratu",
+  "Travel Cikampek Pelabuhan Ratu",
+  "Travel Purwakarta Pelabuhan Ratu",
+
 ];
 
 $kota = [
   [
-    'Magelang',
-    'magelang.jpg',
+    'Sukabumi',
+    'sukabumi.jpg',
   ],
   [
     'Jakarta',
     'jakarta.jpg',
   ],
   [
-    'Depok',
-    'depok.jpg',
+    'Cianjur',
+    'cianjur.jpg',
   ],
   [
-    'Temanggung',
-    'temanggung.jpg',
+    'Depok',
+    'depok.jpg',
   ],
 ];
 
@@ -401,7 +434,7 @@ $galeri = [
                   </div>
                 </div>
 
-                <div class="col-span-full text-sm">
+                <!-- <div class="col-span-full text-sm">
                   <label
                     for="nomor"
                     class="block cursor-pointer font-medium">Nomor Whatsapp</label>
@@ -430,7 +463,7 @@ $galeri = [
                       autocomplete="off"
                       class="cursor-pointer block w-full rounded-md border-0 py-1.5 px-2 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-red-500 placeholder:text-gray-400 bg-slate-50" />
                   </div>
-                </div>
+                </div> -->
 
                 <button
                   class="col-span-full px-5 py-2 border-2 border-primary hover:border-red-500 bg-primary hover:bg-red-500 text-slate-200 rounded-lg transition-all relative"
@@ -1124,28 +1157,3 @@ $galeri = [
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
