@@ -1,7 +1,7 @@
 <?php
 
-// $domain = 'http://localhost/travel/kingtourtravel.web.id/';
-$domain = 'https://kingtourtravel.web.id/';
+// $domain = 'http://localhost/travel/putra-agam-trans.web.id';
+$domain = 'https://putra-agam-trans.web.id/';
 $brand = 'King Tour & Travel';
 $logo = 'src/img/King-Tour-Travel.png';
 $logoPanjang = 'src/img/King-Tour-Travel.png';
