@@ -1,16 +1,17 @@
 <?php
 
-// $domain = 'http://localhost/travel/putra-agam-trans.web.id';
+// $domain = 'http://localhost/travel/putra-agam-trans.web.id/';
 $domain = 'https://putra-agam-trans.web.id/';
-$brand = 'King Tour & Travel';
-$logo = 'src/img/King-Tour-Travel.png';
-$logoPanjang = 'src/img/King-Tour-Travel.png';
-$title = $brand . " - Travel Jabodetabek Sukabumi Cianjur";
-$desc = $brand . " menawarkan jasa Jabodetabek Sukabumi Cianjur dengan harga murah tahun "  . date('Y');
-$telp = '0857-1110-5850';
+$brand = 'Putra Agam Trans';
+$logo = 'src/img/putra-agam-trans.jpg';
+$logoPanjang = 'src/img/putra-agam-trans.jpg';
+$title = $brand . " - Travel Madura Jawa Timur PP";
+$desc = $brand . " menawarkan jasa Madura Jawa Timur PP dengan harga murah dan door to door";
+$telp = '082338117731';
 // $telp2 = '0858-2179-2395';
-$alamat = 'Bantarkalong, Kabupaten Sukabumi, Jawa Barat';
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3959.8958196140934!2d106.7024259749974!3d-7.0215308929801195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDEnMTcuNSJTIDEwNsKwNDInMTguMCJF!5e0!3m2!1sid!2sid!4v1751353933969!5m2!1sid!2sid';
+$alamat = 'Jl. Kowel Jaya, RT.002/RW.003, Kowel, Kec. Pamekasan, Kabupaten Pamekasan, Jawa Timur';
+
+$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.9252904119267!2d113.4865392!3d-7.1346381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd9d70045c95939%3A0xccf7cdbd3981d254!2sPutra%20agam%20trans!5e0!3m2!1sid!2sid!4v1751612598685!5m2!1sid!2sid';
 
 
 function res_telp($telp)
@@ -50,86 +51,82 @@ $menu = [
 
 
 $rute = [
-  "Travel Sukabumi Jakarta",
-  "Travel Sukabumi Bandara",
-  "Travel Sukabumi Bogor",
-  "Travel Sukabumi Depok",
-  "Travel Sukabumi Tangerang",
-  "Travel Sukabumi Bekasi",
-  "Travel Sukabumi Karawang",
-  "Travel Sukabumi Cikampek",
-  "Travel Sukabumi Purwakarta",
-
-  "Travel Cianjur Jakarta",
-  "Travel Cianjur Bandara",
-  "Travel Cianjur Bogor",
-  "Travel Cianjur Depok",
-  "Travel Cianjur Tangerang",
-  "Travel Cianjur Bekasi",
-  "Travel Cianjur Karawang",
-  "Travel Cianjur Cikampek",
-  "Travel Cianjur Purwakarta",
-
-  "Travel Pelabuhan Ratu Jakarta",
-  "Travel Pelabuhan Ratu Bandara",
-  "Travel Pelabuhan Ratu Bogor",
-  "Travel Pelabuhan Ratu Depok",
-  "Travel Pelabuhan Ratu Tangerang",
-  "Travel Pelabuhan Ratu Bekasi",
-  "Travel Pelabuhan Ratu Karawang",
-  "Travel Pelabuhan Ratu Cikampek",
-  "Travel Pelabuhan Ratu Purwakarta",
+  "Travel Madura Surabaya",
+  "Travel Madura Malang",
+  "Travel Madura Batu",
+  "Travel Madura Madiun",
+  "Travel Madura Kediri",
+  "Travel Madura Blitar",
+  "Travel Madura Mojokerto",
+  "Travel Madura Pasuruan",
+  "Travel Madura Banyuwangi",
+  "Travel Madura Bojonegoro",
+  "Travel Madura Bondowoso",
+  "Travel Madura Gresik",
+  "Travel Madura Jember",
+  "Travel Madura Jombang",
+  "Travel Madura Lamongan",
+  "Travel Madura Lumajang",
+  "Travel Madura Magetan",
+  "Travel Madura Nganjuk",
+  "Travel Madura Ngawi",
+  "Travel Madura Pacitan",
+  "Travel Madura Ponorogo",
+  "Travel Madura Probolinggo",
+  "Travel Madura Sidoarjo",
+  "Travel Madura Situbondo",
+  "Travel Madura Trenggalek",
+  "Travel Madura Tuban",
+  "Travel Madura Tulungagung",
 
   // 
 
-  "Travel Jakarta Sukabumi",
-  "Travel Bandara Sukabumi",
-  "Travel Bogor Sukabumi",
-  "Travel Depok Sukabumi",
-  "Travel Tangerang Sukabumi",
-  "Travel Bekasi Sukabumi",
-  "Travel Karawang Sukabumi",
-  "Travel Cikampek Sukabumi",
-  "Travel Purwakarta Sukabumi",
-
-  "Travel Jakarta Cianjur ",
-  "Travel Bandara Cianjur ",
-  "Travel Bogor Cianjur ",
-  "Travel Depok Cianjur ",
-  "Travel Tangerang Cianjur ",
-  "Travel Bekasi Cianjur ",
-  "Travel Karawang Cianjur ",
-  "Travel Cikampek Cianjur ",
-  "Travel Purwakarta Cianjur ",
-
-  "Travel Jakarta Pelabuhan Ratu",
-  "Travel Bandara Pelabuhan Ratu",
-  "Travel Bogor Pelabuhan Ratu",
-  "Travel Depok Pelabuhan Ratu",
-  "Travel Tangerang Pelabuhan Ratu",
-  "Travel Bekasi Pelabuhan Ratu",
-  "Travel Karawang Pelabuhan Ratu",
-  "Travel Cikampek Pelabuhan Ratu",
-  "Travel Purwakarta Pelabuhan Ratu",
+  "Travel Surabaya Madura",
+  "Travel Malang Madura",
+  "Travel Batu Madura",
+  "Travel Madiun Madura",
+  "Travel Kediri Madura",
+  "Travel Blitar Madura",
+  "Travel Mojokerto Madura",
+  "Travel Pasuruan Madura",
+  "Travel Banyuwangi Madura",
+  "Travel Bojonegoro Madura",
+  "Travel Bondowoso Madura",
+  "Travel Gresik Madura",
+  "Travel Jember Madura",
+  "Travel Jombang Madura",
+  "Travel Lamongan Madura",
+  "Travel Lumajang Madura",
+  "Travel Magetan Madura",
+  "Travel Nganjuk Madura",
+  "Travel Ngawi Madura",
+  "Travel Pacitan Madura",
+  "Travel Ponorogo Madura",
+  "Travel Probolinggo Madura",
+  "Travel Sidoarjo Madura",
+  "Travel Situbondo Madura",
+  "Travel Trenggalek Madura",
+  "Travel Tuban Madura",
+  "Travel Tulungagung Madura",
 
 ];
 
 $kota = [
   [
-    'Sukabumi',
-    'sukabumi.jpg',
+    'Madura',
+    'madura.jpg',
   ],
   [
-    'Jakarta',
-    'jakarta.jpg',
+    'Pamekasan',
+    'pamekasan.jpg',
   ],
   [
-    'Cianjur',
-    'cianjur.jpg',
+    'Surabaya',
+    'surabaya.jpg',
   ],
   [
-    'Depok',
-    'depok.jpg',
+    'Banyuwangi',
+    'banyuwangi.jpg',
   ],
 ];
 
@@ -187,7 +184,7 @@ $galeri = [
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <header class="">
     <div class="container !py-0">
-      <div class="flex justify-between py-4">
+      <div class="flex justify-between py-1">
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
@@ -494,6 +491,7 @@ $galeri = [
             <?php foreach ($rute as $item) : ?>
               <div class="">
                 <a
+                  target="_blank"
                   title="<?= 'rute ' . $item ?>"
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
@@ -504,7 +502,7 @@ $galeri = [
                   alt="<?= 'rute ' . $item ?>"
                   class="" />
                 <div class="">
-                  <a href="<?= $link_whatsapp ?>">
+                  <a target="_blank" href="<?= $link_whatsapp ?>">
                     <h3 class="">
                       <?= $item ?>
                       <svg
@@ -521,6 +519,7 @@ $galeri = [
                       </svg>
                     </h3>
                   </a>
+                  <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary text-slate-100 block text-center text-sm mt-3 rounded p-2">Pesan Travel</a>
                 </div>
               </div>
             <?php endforeach; ?>
@@ -536,8 +535,11 @@ $galeri = [
       <div class="container">
         <div class="grid grid-cols-12 gap-8">
           <div class="col-span-full md:col-span-6">
-            <div class="w-full max-w-[400px]">
-              <img src="<?= $logo ?>" class="rounded-lg" alt="tentang <?= $brand ?>">
+            <div class="w-full max-w-[360px]">
+              <video controls="" autoplay="" class="w-full">
+                <source src="<?= $domain . 'src/video/video.mp4' ?>" type="video/mp4">
+              </video>
+              <img loading="lazy" src="<?= $logo ?>" class="w-full rounded-lg hidden" alt="tentang Panda 88 Trans">
             </div>
           </div>
           <div class="col-span-full md:col-span-6">
