@@ -6,8 +6,8 @@ $brand = 'Putra Agam Trans';
 $logo = 'src/img/putra-agam-trans.jpg';
 $logoPanjang = 'src/img/putra-agam-trans.jpg';
 $title = $brand . " - Travel Madura Jawa Timur PP";
-$desc = $brand . " menawarkan jasa Madura Jawa Timur PP dengan harga murah dan door to door";
-$telp = '082338117731';
+$desc = $brand . " menawarkan jasa Travel Madura Jawa Timur PP dengan harga murah dan door to door";
+$telp = '0823-3811-7731';
 // $telp2 = '0858-2179-2395';
 $alamat = 'Jl. Kowel Jaya, RT.002/RW.003, Kowel, Kec. Pamekasan, Kabupaten Pamekasan, Jawa Timur';
 
